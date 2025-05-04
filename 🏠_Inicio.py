@@ -121,7 +121,7 @@ st.markdown("---")
 with st.container():
     st.subheader("🧭 Como Navegar")
     
-    guide_cols = st.columns(3)
+    guide_cols = st.columns(4)
     with guide_cols[0]:
         st.markdown("""
         ### Base de Dados
@@ -144,6 +144,13 @@ with st.container():
         - 💡 Insights acionáveis  
         - 🛠 Roadmap de implementação  
         - 📆 Monitoramento de KPIs  
+        """)
+
+    with guide_cols[3]:
+        st.markdown("""
+        ### Testes de Hipótese
+        - 🧪 Two-sample t-test 
+        - 📊 Qui-quadrado de independência  
         """)
 
 # CSS Customizado para os cards e textos
