@@ -186,7 +186,7 @@ else:
 
     fig, ax = plt.subplots(figsize=(8, 4))
     prop.plot(kind='bar', stacked=True, ax=ax)
-    ax.set_ylabel('Proporção')
+    ax.set_ylabel('Proporção') 
     ax.set_title('Cancelamento vs Nível de Entrega')
     ax.legend(title='Status_Pedido', bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
     plt.tight_layout()
